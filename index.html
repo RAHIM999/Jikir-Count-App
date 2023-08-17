@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jikir Count App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <h1 class="heading">JIKIR COUNT APP</h1>
+            <hr>
+            <h2 id="subhan-id" class="jikir-number">0</h2>
+            <h2 class="name-jikir">SUBHAN ALLAH</h2>
+            <button id="subhan-count" class="btn-count" onclick="subhanallah()">COUNT</button>
+            <h2 id="alham-id" class="jikir-number">0</h2>
+            <h2 class="name-jikir">ALHAMDULILLAH</h2>
+            <button id="alham-count" class="btn-count" onclick="alhamdulillah()">COUNT</button>
+
+            <h2 id="allahu-id" class="jikir-number">0</h2>
+            <h2 class="name-jikir">ALLAHU AKBAR</h2>
+            <button id="allahu-count" class="btn-count" onclick="allahuakbar()">COUNT</button>
+            <p id="completed-note">Have You Filled The Target?</p>
+            <br>
+            <button class="btn-complete" onclick="completed()">YES</button>
+            <button class="btn-incomplete" onclick="incompleted()">NO</button>
+            <p id="response-note"></p>
+            <br>
+            <button class="btn-reset" onclick="reset()">RESET</button>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
