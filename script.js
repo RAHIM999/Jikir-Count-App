@@ -24,7 +24,7 @@ audio.play();
 function incompleted(){
     var audio = new Audio('incomplete audio.mp3');
     audio.play();
-    document.getElementById("response-note").innerText="Allah will see your deeds 💗 Inshallah, Next time! May Allah Give You Barakah 🤲 My Love, Nupur💗"
+    document.getElementById("response-note").innerText="It's Okay. Allah Always Sees our Desires 💗 Insha'allah, Next time! May Allah Give You Barakah 🤲 My Love, Nupur💗"
 }
 function reset(){
     var audio = new Audio('thanks audio.mp3');
